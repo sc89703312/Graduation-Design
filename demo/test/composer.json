@@ -1,0 +1,20 @@
+{
+    "name": "demo/test",
+    "description": "Test local package dev",
+    "type": "library",
+    "require": {
+        "laravel/framework": "5.6.*",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "demo\\test\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "demo\\test\\Tests\\": "tests/"
+        }
+    }
+}
